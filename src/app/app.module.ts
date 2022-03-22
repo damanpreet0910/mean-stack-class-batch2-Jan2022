@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { DashbaordComponent } from './dashbaord/dashbaord.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,9 @@ import { FooterComponent } from './layout/footer/footer.component';
     ContactComponent,
     LayoutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SidebarComponent,
+    DashbaordComponent
   ],
   imports: [
     BrowserModule,
